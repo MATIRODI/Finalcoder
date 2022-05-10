@@ -1,0 +1,67 @@
+  
+
+
+@import "footer";
+@import "menu";
+@import "card";
+@import "header";
+@import "media";
+@import "botones";
+ 
+ 
+  .principal{
+   margin:auto;
+    width:50%; 
+    justify-content:end;
+ }
+ 
+ 
+ .formulario{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ 
+ 
+ .eleccion{ 
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  z-index: 80;
+  float: left;
+  line-height: 1;
+  min-height: 50px;}
+
+ .no{
+   
+   text-align: center;
+ }
+ 
+ 
+
+ img{
+    
+    width: 90%;
+ }
+ 
+ .masVendidos{margin: auto;
+  padding: auto;
+ max-width: 20%;
+ justify-content: end;
+}
+
+.contenedor{
+  padding: auto;
+ width: 20%;
+ justify-content: end;}
+ 
+ .info{
+   text-align: left;
+ }
+ 
+ 

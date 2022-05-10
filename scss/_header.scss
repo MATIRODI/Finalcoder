@@ -1,0 +1,28 @@
+$color:  #a1adef;
+
+header{
+    padding-bottom: 10px;
+    background-color:$color;
+    text-align: center;
+    width: 100%;
+    z-index: 80;
+    float: left;
+    line-height: 1;
+    min-height: 50px;}
+ 
+   .h1{
+    background-color: $color;
+    justify-content: center;
+      text-align: center;
+      padding-left: 30px;
+      border-radius: 25px;
+      margin: 15px;
+    }
+ 
+    h2{
+      justify-content: center;
+      text-align: center;
+      padding-left: 30px;
+      border-radius: 25px;
+      margin: 15px;
+    }

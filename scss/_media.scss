@@ -1,0 +1,86 @@
+.mainNosotros{
+    height: 80vh;
+    display: grid;
+    grid-template-areas: "mainP mainP"
+                        "imagen1 imagen2"
+                        "imagen3 imagen4"
+                        "parrafo parrafo";
+    justify-content: center;                    
+  }
+  
+  .mainP{
+      text-align: center;
+      grid-area: mainP;
+  }
+  
+  .imagen1{
+      grid-area: imagen1;
+  }
+  
+  .imagen2{
+      grid-area: imagen2;
+  }
+  
+  .imagen3{
+      grid-area: imagen3;
+  }
+  
+  .imagen4{
+      grid-area: imagen4;
+  }
+  
+  .parrafo{
+      grid-area: parrafo;
+      text-align: center;
+  }
+
+
+@media only screen and (min-width:600px){
+     
+    .mainNosotros{
+        height: 80vh;
+        display: grid;
+        grid-template-areas: "mainP mainP mainP mainP"                   
+                            "imagen1 imagen2 imagen3 imagen4" 
+                            "parrafo parrafo parrafo parrafo ";
+        justify-content: center; 
+              
+    }
+  
+    .mainP{
+      text-align: center;
+    }
+  
+    .sectionNosotros{
+      display: block;
+      grid-area: img;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .imagen1, .imagen2, .imagen3, .imagen4{
+      padding: 1rem;
+    
+  .footerNosotros{
+        display:inline-flex;
+      }
+  }
+  
+  
+  
+  @media only screen and (min-width:1024px){
+ 
+    .sectionNosotros{display:inline;}
+    
+  .mainNosotros{
+        height: 80vh;
+        display: grid;
+        grid-template-areas: "mainP mainP img img "
+                            "imagen1 imagen2 imagen3 imagen4" 
+                            "parrafo parrafo parrafo parrafo";
+        justify-content: center;   
+        align-items: center;}
+  .footerNosotros{
+    display:inline-block;}
+  }}
