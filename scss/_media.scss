@@ -35,6 +35,22 @@
   }
 
 
+@media only screen and (min-width:480px){
+ 
+    .sectionNosotros{display:inline;}
+    
+  .mainNosotros{
+        height: 80vh;
+        display: none;
+        grid-template-areas: "mainP mainP img img "
+                            "imagen1 imagen2 imagen3 imagen4" 
+                            "parrafo parrafo parrafo parrafo";
+        justify-content: center;   
+        align-items: center;}
+  .footerNosotros{
+    display:noe;}
+  }}
+
 @media only screen and (min-width:600px){
      
     .mainNosotros{
